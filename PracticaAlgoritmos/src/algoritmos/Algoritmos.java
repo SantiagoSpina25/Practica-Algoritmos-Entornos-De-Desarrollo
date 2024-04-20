@@ -24,6 +24,21 @@ public abstract class Algoritmos {
 		}
 	}
 	
+	/**
+     * Metodo que calcula el factorial de un número dado.
+     *
+     * @param numero  El número para el cual se desea calcular el factorial.
+     * @return El factorial del número dado.
+     * 
+     */
+    public static int factorial(int numero) {
+        if (numero < 0)
+            System.out.print("El factorial no está definido para números negativos");
+        if (numero == 0)
+            return 1;
+        else
+            return numero * factorial(numero - 1);
+    }
 	
 	
 }
