@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PracticaAlgoritmos" project="PracticaAlgoritmos" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="tests.AlgoritmosTest" time="0.013" displayname="AlgoritmosTest" uniqueid="[engine:junit-jupiter]/[class:tests.AlgoritmosTest]">
+    <testcase name="testEsPrimo" classname="tests.AlgoritmosTest" time="0.01" displayname="testEsPrimo()" uniqueid="[engine:junit-jupiter]/[class:tests.AlgoritmosTest]/[method:testEsPrimo()]"/>
+    <testcase name="testFactorial" classname="tests.AlgoritmosTest" time="0.001" displayname="testFactorial()" uniqueid="[engine:junit-jupiter]/[class:tests.AlgoritmosTest]/[method:testFactorial()]"/>
+    <testcase name="testFibonacci" classname="tests.AlgoritmosTest" time="0.001" displayname="testFibonacci()" uniqueid="[engine:junit-jupiter]/[class:tests.AlgoritmosTest]/[method:testFibonacci()]"/>
+  </testsuite>
+</testrun>

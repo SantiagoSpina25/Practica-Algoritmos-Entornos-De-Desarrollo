@@ -1,6 +1,5 @@
 package app;
 
-import java.util.Iterator;
 import algoritmos.Algoritmos;
 
 public class Principal {
@@ -35,13 +34,6 @@ public class Principal {
         for (int i = 0; i < numeros.length; i++) {
             resultadoPrimos[i] = Algoritmos.esPrimo(numeros[i]);
         }
-        
-        
-        
-        
-        
-        
-        
         
 	}
 }
