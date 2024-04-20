@@ -1,0 +1,21 @@
+package app;
+
+import modelos.Circulo;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+		Circulo c1 = new Circulo();
+		Circulo c2 = new Circulo(4);
+		Circulo c3 = new Circulo(12);
+		
+		System.out.println(c1.getArea());
+		System.out.println(c3.getPerimetro());
+		
+		
+	}
+	
+	
+	
+}

@@ -1,0 +1,90 @@
+package modelos;
+
+
+/**
+ * 
+ */
+public class Rectangulo extends Figura{
+
+    /**
+     * Default constructor
+     */
+    public Rectangulo() {
+    	base = 1;
+    	altura = 1;
+    }
+
+    /**
+     * 
+     */
+    private int base;
+
+    /**
+     * 
+     */
+    private int altura;
+
+
+    /**
+     * @param base 
+     * @param altura
+     */
+    public Rectangulo(int base, int altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+
+    /**
+     * @return
+     */
+    public int getBase() {
+        return base;
+    }
+
+    /**
+     * @param base
+     */
+    public void setBase(int base) {
+        this.base = base;
+    }
+
+    /**
+     * @return
+     */
+    public int getAltura() {
+        // TODO implement here
+        return altura;
+    }
+
+    /**
+     * @param altura
+     */
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+
+    /**
+     * @return
+     */
+    @Override
+    public String toString() {
+        return "base=" + base + ", altura=" + altura;
+    }
+
+    /**
+     * @return
+     */
+    @Override
+    public double getArea() {
+        return base * altura;
+    }
+
+    /**
+     * @return
+     */
+    @Override
+    public double getPerimetro() {
+        return (2*base) + (2*altura);
+    }
+
+}

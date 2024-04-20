@@ -1,0 +1,93 @@
+package modelos;
+
+
+/**
+ * 
+ */
+public class Rectangulo {
+
+    /**
+     * Default constructor
+     */
+    public Rectangulo() {
+    	base = 1;
+    	altura = 1;
+    }
+
+    /**
+     * 
+     */
+    private int base;
+
+    /**
+     * 
+     */
+    private int altura;
+
+    /**
+     * 
+     */
+    public void Rectangulo() {
+        // TODO implement here
+    }
+
+    /**
+     * @param base 
+     * @param altura
+     */
+    public void Rectangulo(int base, int altura) {
+        this.base = base;
+        this.altura = altura;
+    }
+
+    /**
+     * @return
+     */
+    public int getBase() {
+        return base;
+    }
+
+    /**
+     * @param base
+     */
+    public void setBase(int base) {
+        this.base = base;
+    }
+
+    /**
+     * @return
+     */
+    public int getAltura() {
+        // TODO implement here
+        return altura;
+    }
+
+    /**
+     * @param altura
+     */
+    public void setAltura(int altura) {
+        this.altura = altura;
+    }
+
+    /**
+     * @return
+     */
+    public String toString() {
+        return "base=" + base + ", altura=" + altura;
+    }
+
+    /**
+     * @return
+     */
+    public int getArea() {
+        return base * altura;
+    }
+
+    /**
+     * @return
+     */
+    public int getPerimetro() {
+        return (2*base) + (2*altura);
+    }
+
+}
